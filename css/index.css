@@ -170,6 +170,11 @@ label{
     .timer{
         padding-left: 12% !important;
     }
+
+    #declare{
+        color: white;
+        font-size: 20px;
+    }
     
 }
 
@@ -257,7 +262,6 @@ label{
     }
 
     label{
-        display: inline !important;
         position: absolute;
         margin-top: -5px;
         margin-left: -22px;
