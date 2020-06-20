@@ -21,7 +21,7 @@ body{
 }
 
 .navbar-brand{
-    padding-top: 35px;
+    padding-top: 10px;
     padding-left: 35px;
     font-size: 30px;
     color: white;
@@ -104,6 +104,10 @@ label{
     padding-left: 70px;
 }
 
+#declare{
+    color: white;
+    font-size: 38px;
+}
 
 
 @media(max-width:600px){
