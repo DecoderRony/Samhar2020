@@ -26,6 +26,11 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("timer1").style.display = "none";
+    document.getElementById("timer2").style.display = "none";
+    document.getElementById("timer3").style.display = "none";
+    document.getElementById("timer4").style.display = "none";
+
+    document.getElementById("declare").innerHTML = "CANCELLED DUE TO COVID'19";
   }
 }, 1000);
